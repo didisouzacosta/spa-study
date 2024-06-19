@@ -10,15 +10,21 @@ let package = Package(
     products: [
         .library(
             name: "spm-study",
-            targets: ["spm-study"]),
+            targets: ["spm-study"]
+        ),
+    ],
+    dependencies: [
+        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.9.1"),
+        .package(url: "https://github.com/ChartsOrg/Charts.git", from: "5.1.0"),
+        .package(url: "https://github.com/mxcl/PromiseKit.git", from: "8.1.2")
     ],
     targets: [
         .target(
             name: "spm-study",
-            exclude: ["../../spm-study.podspec", "../../readme.md"]
+            dependencies: []
         ),
         .testTarget(
             name: "spm-studyTests",
-            dependencies: ["spm-study"]),
+            dependencies: ["spm-study"])
     ]
 )
