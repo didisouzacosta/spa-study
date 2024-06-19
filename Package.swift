@@ -21,7 +21,10 @@ let package = Package(
     targets: [
         .target(
             name: "spm-study",
-            dependencies: []
+            dependencies: [
+                "Alamofire",
+                "PromiseKit"
+            ]
         ),
         .testTarget(
             name: "spm-studyTests",
