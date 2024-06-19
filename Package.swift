@@ -3,20 +3,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "SPM Study",
+    name: "spm-study",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "SPM Study",
-            targets: ["SPM Study"]),
+            name: "spm-study",
+            targets: ["spm-study"]),
     ],
     targets: [
         .target(
-            name: "SPM Study"),
+            name: "spm-study"),
         .testTarget(
-            name: "SPM StudyTests",
-            dependencies: ["SPM Study"]),
+            name: "spm-studyTests",
+            dependencies: ["spm-study"]),
     ]
 )

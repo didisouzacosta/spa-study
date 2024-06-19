@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = 'SPM_Study'
-  s.version          = '1.0.0'
+  s.name             = 'spm-study'
+  s.version          = '1.2.3'
   s.summary          = 'A little study case for understand how SPM and CocoaPods work together.'
 
   s.homepage         = 'https://github.com/didisouzacosta/spm-study'
@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'Sources/SPM\ Study/**/*'
+  s.source_files = 'Sources/spm-study/**/*'
 end
