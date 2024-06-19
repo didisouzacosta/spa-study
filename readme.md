@@ -11,5 +11,5 @@ https://github.com/didisouzacosta/spm-study.git
 ### Install using CocoaPods
 
 ```
-pod 'SPM_Study', git: => "https://github.com/didisouzacosta/spm-study.git"
+pod 'SPM_Study', git: "https://github.com/didisouzacosta/spm-study.git"
 ```
