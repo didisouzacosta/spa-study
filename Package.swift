@@ -14,7 +14,9 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "spm-study"),
+            name: "spm-study",
+            exclude: ["../../spm-study.podspec", "../../readme.md"]
+        ),
         .testTarget(
             name: "spm-studyTests",
             dependencies: ["spm-study"]),
