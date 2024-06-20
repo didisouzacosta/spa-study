@@ -24,7 +24,7 @@ PODS:
     - DGCharts
 
 DEPENDENCIES:
-  - spm_study (from `./../../`)
+  - spm_study (from `https://github.com/didisouzacosta/spm-study.git`)
 
 SPEC REPOS:
   trunk:
@@ -34,7 +34,12 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   spm_study:
-    :path: "./../../"
+    :git: https://github.com/didisouzacosta/spm-study.git
+
+CHECKOUT OPTIONS:
+  spm_study:
+    :commit: d12e716f8135f23ce8a91680f38ad560d4e09b60
+    :git: https://github.com/didisouzacosta/spm-study.git
 
 SPEC CHECKSUMS:
   Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
@@ -42,6 +47,6 @@ SPEC CHECKSUMS:
   PromiseKit: d1be44b474e5acfa16adf007a1f49f104e10fead
   spm_study: f61b0074af98d64275c0b855b233ddf33dc9f7b0
 
-PODFILE CHECKSUM: af62e95b8ad1db3c615b0bfb3d3bb449142c3756
+PODFILE CHECKSUM: 260a73e35cd252573cfaee99ce54266c5eda93d1
 
 COCOAPODS: 1.15.2
