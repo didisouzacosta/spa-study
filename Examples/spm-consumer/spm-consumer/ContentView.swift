@@ -17,7 +17,7 @@ final class PokemonStore {
     private (set) var pokemon: Pokemon?
     
     func fetch() async throws {
-        pokemon = try? await Network.get("https://pokeapi.co/api/v2/pokemon/ditto")
+        pokemon = try await Network.get("https://pokeapi.co/api/v2/pokemon/ditto")
     }
     
 }
