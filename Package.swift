@@ -25,7 +25,8 @@ let package = Package(
                 "spm-core",
                 "spm-utils",
                 "spm-network"
-            ]
+            ],
+            exclude: ["./../Examples"]
         ),
         .target(name: "spm-core", dependencies: ["PromiseKit"], path: "Sources/core"),
         .target(name: "spm-utils", dependencies: [.product(name: "DGCharts", package: "Charts")], path: "Sources/utils"),
