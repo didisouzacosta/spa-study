@@ -26,7 +26,10 @@ let package = Package(
             dependencies: [
                 "Alamofire",
                 "PromiseKit",
-                .product(name: "DGCharts", package: "Charts")
+                .product(name: "DGCharts", package: "Charts"),
+                "spm-core",
+                "spm-utils",
+                "spm-network"
             ]
         ),
         .target(name: "spm-core", path: "Sources/core"),
