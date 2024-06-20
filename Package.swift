@@ -25,6 +25,9 @@ let package = Package(
                 "spm-core",
                 "spm-utils",
                 "spm-network"
+            ],
+            resources: [
+                .process("Resources")
             ]
         ),
         .target(name: "spm-core", dependencies: ["PromiseKit"], path: "Sources/core"),
