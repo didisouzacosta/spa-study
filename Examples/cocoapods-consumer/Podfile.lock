@@ -3,6 +3,13 @@ PODS:
   - DGCharts (5.1.0):
     - DGCharts/Core (= 5.1.0)
   - DGCharts/Core (5.1.0)
+  - InputMask (6.1.0)
+  - PhoneNumberKit (3.7.11):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.7.11)
+    - PhoneNumberKit/UIKit (= 3.7.11)
+  - PhoneNumberKit/PhoneNumberKitCore (3.7.11)
+  - PhoneNumberKit/UIKit (3.7.11):
+    - PhoneNumberKit/PhoneNumberKitCore
   - PromiseKit (8.1.1):
     - PromiseKit/CorePromise (= 8.1.1)
     - PromiseKit/Foundation (= 8.1.1)
@@ -22,6 +29,10 @@ PODS:
     - Alamofire
   - spm_study/spm_utils (1.8.0):
     - DGCharts
+    - InputMask
+    - PhoneNumberKit
+    - TPKeyboardAvoiding
+  - TPKeyboardAvoiding (1.3.5)
 
 DEPENDENCIES:
   - spm_study (from `https://github.com/didisouzacosta/spm-study.git`)
@@ -30,7 +41,10 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - DGCharts
+    - InputMask
+    - PhoneNumberKit
     - PromiseKit
+    - TPKeyboardAvoiding
 
 EXTERNAL SOURCES:
   spm_study:
@@ -38,15 +52,18 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   spm_study:
-    :commit: d12e716f8135f23ce8a91680f38ad560d4e09b60
+    :commit: 1c38fbd953aeadbe8d0be85bcb488c7d0059455c
     :git: https://github.com/didisouzacosta/spm-study.git
 
 SPEC CHECKSUMS:
   Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
   DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
+  InputMask: 71d291dc54d2deaeac6512afb6ec2304228c0bb7
+  PhoneNumberKit: ced55861269312a5e3bc2ef82a58d6255b1c976a
   PromiseKit: d1be44b474e5acfa16adf007a1f49f104e10fead
-  spm_study: f61b0074af98d64275c0b855b233ddf33dc9f7b0
+  spm_study: c25f341a2cbb322a42ff69c34242381e6fe0899c
+  TPKeyboardAvoiding: d55b3ea7b362540af8fcf36aa3ed2e87bf210cc6
 
-PODFILE CHECKSUM: 260a73e35cd252573cfaee99ce54266c5eda93d1
+PODFILE CHECKSUM: ddc7a607e85d822c15bb331344d84c9686254086
 
 COCOAPODS: 1.15.2

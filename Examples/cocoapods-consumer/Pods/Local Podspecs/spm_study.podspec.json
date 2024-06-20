@@ -45,6 +45,15 @@
       "dependencies": {
         "DGCharts": [
 
+        ],
+        "TPKeyboardAvoiding": [
+
+        ],
+        "PhoneNumberKit": [
+
+        ],
+        "InputMask": [
+
         ]
       }
     }
