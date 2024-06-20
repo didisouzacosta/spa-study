@@ -1,0 +1,6 @@
+framework module Pods_cocoapods_consumer {
+  umbrella header "Pods-cocoapods-consumer-umbrella.h"
+
+  export *
+  module * { export * }
+}

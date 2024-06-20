@@ -1,0 +1,21 @@
+PODS:
+  - spm-study (1.2.3)
+
+DEPENDENCIES:
+  - spm-study (from `https://github.com/didisouzacosta/spm-study.git`)
+
+EXTERNAL SOURCES:
+  spm-study:
+    :git: https://github.com/didisouzacosta/spm-study.git
+
+CHECKOUT OPTIONS:
+  spm-study:
+    :commit: 96da7adc097360516660f368c7d0e36c2ba3fb2f
+    :git: https://github.com/didisouzacosta/spm-study.git
+
+SPEC CHECKSUMS:
+  spm-study: 9417c5538257f94982b405f4be392ae808112c07
+
+PODFILE CHECKSUM: 2a70a3d71f637a2b6c682ded807be6315cdf625f
+
+COCOAPODS: 1.15.2

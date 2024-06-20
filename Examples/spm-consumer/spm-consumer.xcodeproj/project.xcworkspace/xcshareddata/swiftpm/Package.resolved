@@ -1,0 +1,42 @@
+{
+  "originHash" : "e06ec4736ff88b7e83e3fd89e5ce183da8bb2947c2934c5a071a1112c42f2605",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "charts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ChartsOrg/Charts.git",
+      "state" : {
+        "revision" : "dd9c72e3d7e751e769971092a6bd72d39198ae63",
+        "version" : "5.1.0"
+      }
+    },
+    {
+      "identity" : "promisekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mxcl/PromiseKit.git",
+      "state" : {
+        "revision" : "6fcc08077124e9747f1ec7bd8bb78f5caffe5a79",
+        "version" : "8.1.2"
+      }
+    },
+    {
+      "identity" : "spm-study",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/didisouzacosta/spm-study.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d1e106359547f36a0a448fb3c22bb3672dd57674"
+      }
+    }
+  ],
+  "version" : 3
+}

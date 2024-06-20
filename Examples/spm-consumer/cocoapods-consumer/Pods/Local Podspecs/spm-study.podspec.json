@@ -1,0 +1,23 @@
+{
+  "name": "spm-study",
+  "version": "1.2.3",
+  "summary": "A little study case for understand how SPM and CocoaPods work together.",
+  "homepage": "https://github.com/didisouzacosta/spm-study",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE.md"
+  },
+  "authors": {
+    "SPM Study": "adrianosouzacostaios@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/didisouzacosta/spm-study.git",
+    "tag": "1.2.3"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Sources/spm-study/**/*",
+  "swift_version": "5.0"
+}
