@@ -6,6 +6,7 @@
 //
 
 import XCTest
+
 @testable import spm_network
 
 final class NetworkTests: XCTestCase {

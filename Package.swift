@@ -2,18 +2,16 @@
 
 import PackageDescription
 
-let mainTarget = "spm-study"
-
 let package = Package(
     name: "spm-study",
     platforms: [
         .iOS(.v13)
     ],
     products: [
-        .library(name: mainTarget, targets: [mainTarget]),
-        .library(name: "spm-core", targets: [mainTarget]),
-        .library(name: "spm-utils", targets: [mainTarget]),
-        .library(name: "spm-network", targets: [mainTarget])
+        .library(name: "spm-study", targets: ["spm-study"]),
+        .library(name: "spm-core", targets: ["spm-core"]),
+        .library(name: "spm-utils", targets: ["spm-utils"]),
+        .library(name: "spm-network", targets: ["spm-network"])
     ],
     dependencies: [
         .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.9.1"),
@@ -22,7 +20,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: mainTarget,
+            name: "spm-study",
             dependencies: [
                 "Alamofire",
                 "PromiseKit",
