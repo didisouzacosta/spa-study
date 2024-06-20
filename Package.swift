@@ -33,6 +33,6 @@ let package = Package(
         
         .testTarget(name: "spm-studyTests", dependencies: ["spm-study"]),
         .testTarget(name: "spm-coreTests", dependencies: ["spm-core"]),
-        .testTarget(name: "spm-networkTests", dependencies: ["spm-network"])
+        .testTarget(name: "spm-networkTests", dependencies: ["spm-network", "spm-core"])
     ]
 )

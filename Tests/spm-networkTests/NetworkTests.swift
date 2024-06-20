@@ -6,14 +6,15 @@
 //
 
 import XCTest
+import spm_core
 
 @testable import spm_network
 
 final class NetworkTests: XCTestCase {
     
-    func testEnsureBaseURL() {
-        let url = Network.baseURL.absoluteString
-        XCTAssertEqual(url, "https://www.google.com.br")
+    func testEnsureDecodableResponseData() async throws {
+        let pokemon: Pokemon = try await Network.get("https://pokeapi.co/api/v2/pokemon/ditto")
+        XCTAssertEqual(pokemon.name, "ditto")
     }
     
 }

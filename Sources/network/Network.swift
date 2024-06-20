@@ -10,6 +10,12 @@ import Alamofire
 
 public class Network {
     
-    public static let baseURL = URL(string: "https://www.google.com.br")!
+    public static func get<T: Decodable>(_ url: String) async throws -> T {
+        try await AF.request(url)
+            .serializingDecodable(T.self)
+            .response
+            .result
+            .get()
+    }
     
 }

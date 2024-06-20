@@ -1,5 +1,5 @@
 //
-//  User.swift
+//  Pokemon.swift
 //
 //
 //  Created by ProDoctor on 20/06/24.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct User {
+public struct Pokemon: Decodable {
     
     public let name: String
     
