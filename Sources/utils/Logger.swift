@@ -1,5 +1,5 @@
 //
-//  Log.swift
+//  Logger.swift
 //
 //
 //  Created by ProDoctor on 20/06/24.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class Log {
+public class Logger {
     
     public init() {}
     
