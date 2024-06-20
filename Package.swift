@@ -11,9 +11,9 @@ let package = Package(
     ],
     products: [
         .library(name: mainTarget, targets: [mainTarget]),
-        .library(name: "core", targets: [mainTarget]),
-        .library(name: "utils", targets: [mainTarget]),
-        .library(name: "network", targets: [mainTarget])
+        .library(name: "spm-core", targets: [mainTarget]),
+        .library(name: "spm-utils", targets: [mainTarget]),
+        .library(name: "spm-network", targets: [mainTarget])
     ],
     dependencies: [
         .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.9.1"),
@@ -29,12 +29,11 @@ let package = Package(
                 .product(name: "DGCharts", package: "Charts")
             ]
         ),
-        .target(name: "core", path: "Sources/core"),
-        .target(name: "utils", path: "Sources/utils"),
-        .target(name: "network", path: "Sources/network"),
+        .target(name: "spm-core", path: "Sources/core"),
+        .target(name: "spm-utils", path: "Sources/utils"),
+        .target(name: "spm-network", path: "Sources/network"),
         
-        .testTarget(
-            name: "spm-studyTests",
-            dependencies: ["spm-study"])
+        .testTarget(name: "spm-studyTests", dependencies: ["spm-study"]),
+        .testTarget(name: "spm-coreTests", dependencies: ["spm-core"])
     ]
 )

@@ -1,5 +1,5 @@
 import XCTest
-@testable import SPM_Study
+@testable import spm_study
 
 final class CalculateTests: XCTestCase {
     
