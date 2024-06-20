@@ -8,10 +8,14 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        .library(name: "spm-study", targets: ["spm-study"]),
-        .library(name: "spm-core", targets: ["spm-study"]),
-        .library(name: "spm-utils", targets: ["spm-study"]),
-        .library(name: "spm-network", targets: ["spm-study"])
+        .library(
+            name: "spm-study",
+            targets: [
+                "spm-study",
+                "spm-core",
+                "spm-utils"
+            ]
+        )
     ],
     dependencies: [
         .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.9.1"),
