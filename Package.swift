@@ -38,7 +38,12 @@ let package = Package(
             ]
         ),
         .target(name: "spm-core", dependencies: ["PromiseKit"], path: "Sources/core"),
-        .target(name: "spm-utils", dependencies: [.product(name: "DGCharts", package: "Charts")], path: "Sources/utils"),
+        .target(name: "spm-utils", dependencies: [
+            .product(name: "DGCharts", package: "Charts"),
+            .product(name: "TPKeyboardAvoiding", package: "TPKeyboardAvoiding"),
+            .product(name: "PhoneNumberKit", package: "PhoneNumberKit"),
+            .product(name: "InputMask", package: "input-mask-ios"),
+        ], path: "Sources/utils"),
         .target(name: "spm-network", dependencies: ["Alamofire"], path: "Sources/network"),
         
         .testTarget(name: "spm-studyTests", dependencies: ["spm-study"]),
