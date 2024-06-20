@@ -6,5 +6,6 @@ target 'cocoapods-consumer' do
   use_frameworks!
 
   pod 'spm-study', git: "https://github.com/didisouzacosta/spm-study.git"
+  # pod 'spm_study', path: "./../../"
 
 end

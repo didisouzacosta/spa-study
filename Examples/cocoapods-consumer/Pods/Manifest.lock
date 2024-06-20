@@ -1,21 +1,47 @@
 PODS:
-  - spm-study (1.2.3)
+  - Alamofire (5.9.1)
+  - DGCharts (5.1.0):
+    - DGCharts/Core (= 5.1.0)
+  - DGCharts/Core (5.1.0)
+  - PromiseKit (8.1.1):
+    - PromiseKit/CorePromise (= 8.1.1)
+    - PromiseKit/Foundation (= 8.1.1)
+    - PromiseKit/UIKit (= 8.1.1)
+  - PromiseKit/CorePromise (8.1.1)
+  - PromiseKit/Foundation (8.1.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (8.1.1):
+    - PromiseKit/CorePromise
+  - spm_study (1.8.0):
+    - spm_study/spm_core (= 1.8.0)
+    - spm_study/spm_network (= 1.8.0)
+    - spm_study/spm_utils (= 1.8.0)
+  - spm_study/spm_core (1.8.0):
+    - PromiseKit
+  - spm_study/spm_network (1.8.0):
+    - Alamofire
+  - spm_study/spm_utils (1.8.0):
+    - DGCharts
 
 DEPENDENCIES:
-  - spm-study (from `https://github.com/didisouzacosta/spm-study.git`)
+  - spm_study (from `./../../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DGCharts
+    - PromiseKit
 
 EXTERNAL SOURCES:
-  spm-study:
-    :git: https://github.com/didisouzacosta/spm-study.git
-
-CHECKOUT OPTIONS:
-  spm-study:
-    :commit: 96da7adc097360516660f368c7d0e36c2ba3fb2f
-    :git: https://github.com/didisouzacosta/spm-study.git
+  spm_study:
+    :path: "./../../"
 
 SPEC CHECKSUMS:
-  spm-study: 9417c5538257f94982b405f4be392ae808112c07
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
+  PromiseKit: d1be44b474e5acfa16adf007a1f49f104e10fead
+  spm_study: f61b0074af98d64275c0b855b233ddf33dc9f7b0
 
-PODFILE CHECKSUM: 2a70a3d71f637a2b6c682ded807be6315cdf625f
+PODFILE CHECKSUM: af62e95b8ad1db3c615b0bfb3d3bb449142c3756
 
 COCOAPODS: 1.15.2

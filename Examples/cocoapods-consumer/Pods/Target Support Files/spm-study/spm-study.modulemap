@@ -1,6 +1,0 @@
-framework module spm_study {
-  umbrella header "spm-study-umbrella.h"
-
-  export *
-  module * { export * }
-}
