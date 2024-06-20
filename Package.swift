@@ -22,17 +22,17 @@ let package = Package(
         .target(
             name: "spm-study",
             dependencies: [
-                "Alamofire",
-                "PromiseKit",
-                .product(name: "DGCharts", package: "Charts"),
-                "spm-core",
-                "spm-utils",
-                "spm-network"
+//                "Alamofire",
+//                "PromiseKit",
+//                .product(name: "DGCharts", package: "Charts"),
+//                "spm-core",
+//                "spm-utils",
+//                "spm-network"
             ]
         ),
-        .target(name: "spm-core", path: "Sources/core"),
-        .target(name: "spm-utils", path: "Sources/utils"),
-        .target(name: "spm-network", path: "Sources/network"),
+        .target(name: "spm-core", dependencies: ["PromiseKit"], path: "Sources/core"),
+        .target(name: "spm-utils", dependencies: [.product(name: "DGCharts", package: "Charts")], path: "Sources/utils"),
+        .target(name: "spm-network", dependencies: ["Alamofire"], path: "Sources/network"),
         
         .testTarget(name: "spm-studyTests", dependencies: ["spm-study"]),
         .testTarget(name: "spm-coreTests", dependencies: ["spm-core"]),
