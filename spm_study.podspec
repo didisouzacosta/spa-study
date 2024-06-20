@@ -27,5 +27,8 @@ Pod::Spec.new do |s|
   s.subspec 'spm_utils' do |spm_utils|
     spm_utils.source_files = 'Sources/utils/**/*'
     spm_utils.dependency 'DGCharts'
+    spm_utils.dependency 'TPKeyboardAvoiding'
+    spm_utils.dependency 'PhoneNumberKit'
+    spm_utils.dependency 'InputMask'
   end
 end
