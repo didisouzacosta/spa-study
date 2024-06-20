@@ -9,9 +9,9 @@ let package = Package(
     ],
     products: [
         .library(name: "spm-study", targets: ["spm-study"]),
-        .library(name: "spm-core", targets: ["spm-core"]),
-        .library(name: "spm-utils", targets: ["spm-utils"]),
-        .library(name: "spm-network", targets: ["spm-network"])
+        .library(name: "spm-core", targets: ["spm-study"]),
+        .library(name: "spm-utils", targets: ["spm-study"]),
+        .library(name: "spm-network", targets: ["spm-study"])
     ],
     dependencies: [
         .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.9.1"),
