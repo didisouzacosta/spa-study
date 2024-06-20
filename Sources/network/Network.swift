@@ -9,6 +9,6 @@ import Foundation
 
 public class Network {
     
-    public let baseURL = URL(string: "http://www.google.com.br")!
+    public static let baseURL = URL(string: "https://www.google.com.br")!
     
 }

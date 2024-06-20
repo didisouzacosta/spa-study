@@ -10,7 +10,7 @@ import XCTest
 
 final class UserTests: XCTestCase {
     
-    func testAssertUserValues() {
+    func testAssertUserProperties() {
         let user = User(name: "Adriano Souza Costa")
         XCTAssertEqual(user.name, "Adriano Souza Costa")
     }
