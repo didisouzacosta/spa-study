@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5080EE62C2AF4DD0052B1B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EAD63D2C232E91006ADE88 /* ContentView.swift */; };
 		D5BD9CE72C234C1E00C53F04 /* spm-study in Frameworks */ = {isa = PBXBuildFile; productRef = D5BD9CE62C234C1E00C53F04 /* spm-study */; };
 		D5BD9CEA2C234CD700C53F04 /* spm-study in Frameworks */ = {isa = PBXBuildFile; productRef = D5BD9CE92C234CD700C53F04 /* spm-study */; };
 		D5EAD63C2C232E91006ADE88 /* spm_consumerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EAD63B2C232E91006ADE88 /* spm_consumerApp.swift */; };
-		D5EAD63E2C232E91006ADE88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EAD63D2C232E91006ADE88 /* ContentView.swift */; };
 		D5EAD6402C232E93006ADE88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EAD63F2C232E93006ADE88 /* Assets.xcassets */; };
 		D5EAD6432C232E93006ADE88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EAD6422C232E93006ADE88 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -148,7 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5EAD63E2C232E91006ADE88 /* ContentView.swift in Sources */,
+				D5080EE62C2AF4DD0052B1B0 /* ContentView.swift in Sources */,
 				D5EAD63C2C232E91006ADE88 /* spm_consumerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
